@@ -75,9 +75,12 @@ Choose `Requesty` from the quick presets, enter your Requesty API key from
 https://app.requesty.ai/api-keys, save the profile, and use `Load models`.
 Vellium queries `https://router.requesty.ai/v1/models`, which returns the
 models approved for your organization as `vendor/model` IDs such as
-`openai/gpt-4o-mini`. To keep traffic in the EU, change the base URL to
-`https://router.eu.requesty.ai/v1`. Requesty uses the existing
-`OpenAI-compatible` provider path. See https://docs.requesty.ai for details.
+`openai/gpt-4o-mini`. To keep Requesty's processing and storage in the EU,
+change the base URL to `https://router.eu.requesty.ai/v1`. To keep model
+inference in the EU as well, choose an EU-hosted model; the EU endpoint alone
+can still route to models outside the EU. See
+https://docs.requesty.ai/features/eu-routing for details. Requesty uses the
+existing `OpenAI-compatible` provider path.
 
 ### Provider types
 
